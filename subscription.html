@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/subscription.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Kaushan+Script&family=Poppins:ital@1&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <title> Matchr </title>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="content">
+            <div class="top-logo">
+                <img src="images/logo.jpeg">
+                <a href="#">Matchr</a>
+            </div>
+            <ul class="menu-list">
+                <div class="icon cancel-btn">
+                    <i class="fa fa-times"></i>
+                </div>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#self-title">About</a></li>
+                <li><a href="subscription.html">Subscription</a></li>
+                <li><a href="#socials">Contact</a></li>
+                <li><a class="loginbtn" style="width:auto;onclick="document.getElementById("login-form").style.display='block'>LogIn</a></li>
+            </ul>
+            <div class="icon menu-btn">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+        <div id='login-form'class='login-page'>
+            <div class="form-box">
+                <div class='button-box'>
+                    <div id='btn'></div>
+                    <button type='button'onclick='login()'class='toggle-btn'>Log In</button>
+                    <button type='button'onclick='register()'class='toggle-btn'>Register</button>
+                </div>
+                <form id='login' class='input-group-login'>
+                <input type='text'class='input-field'placeholder='Email Id' required >
+                <input type='password'class='input-field'placeholder='Enter Password' required>
+                <input type='checkbox'class='check-box'><span>Remember Password</span>
+                <button type='submit'class='submit-btn'>Log in</button>
+                </form>
+                <form id='register' class='input-group-register'>
+                 <input type='text'class='input-field'placeholder='First Name' required>
+                 <input type='text'class='input-field'placeholder='Last Name ' required>
+                 <input type='email'class='input-field'placeholder='Email Id' required>
+                 <input type='password'class='input-field'placeholder='Enter Password' required>
+                 <input type='password'class='input-field'placeholder='Confirm Password'  required>
+                 <input type='checkbox'class='check-box'><span>I agree to the terms and conditions</span>
+                <button type='submit'class='submit-btn'>Register</button>
+                 </form>
+            </div>
+        </div>
+</nav>
+
+ <section id="section2" class="section2">
+</section>
+<section  id="subs">
+
+    <fieldset id="plans">
+        <center>
+        <h1>SUBSCRIPTION</h1>
+        </center>
+        <div class="gallery" id="">
+            <center><br><h2>SILVER</h2><br>2months<br></center>
+            <span><h1>Rs.199</h1></span>
+            <div class="description">
+                <li>Send unlimited messages</li>
+                <li>View upto 20 contact numbers</li>
+            </div>
+        </div>
+        <div class="gallery" id="">
+            <center><br><h2>GOLD</h2><br>2months<br></center>
+            <span><h1>Rs.349</h1></span>
+            <div class="description">
+                
+                    <li>Send unlimited messages</li>
+                    <li>View upto 50 contact numbers</li>
+                
+            </div>
+        </div>
+        <div class="gallery" id="">
+            <center><br><h2>DIAMOND</h2><br>2months<br></center>
+            <span><h1>Rs.999</h1></span>
+            <div class="description">
+                <li>Send unlimited messages</li>
+                <li>View upto 75 contact numbers</li>
+                <li>Let matches contact you directly</li>
+            </div>
+        </div>
+        <div class="gallery" id="">
+            <center><br><h2>PLATINUM</h2><br>2months<br></center>
+            <span><h1>Rs.1599</h1></span>
+            <div class="description">
+               <li>Send unlimited messages</li>
+                <li>View upto 150 contact numbers</li>
+                <li>Let matches contact you directly</li>
+            </div>
+        </div>
+
+        </fieldset>
+
+</section>
+
+
+
+
+ <div id="socials" class="bottom-container">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <div class="hover-button">
+            <div class="hover"><span>Follow Me</span>
+                <a class="social-link" href="https://www.linkedin.com/in/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a class="social-link" href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a class="social-link" href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a class="social-link" href="https://github.com/" target="_blank"><i class="fa fa-github"></i></a>
+            </div>
+        </div>
+
+        <div class="hover-button">
+            <div class="hover"><span>Contact Me</span>
+                <a class="social-link" href="https://wa.link" target="_blank"><i class="fa fa-whatsapp"></i></a>
+                <a class="social-link" href="tel:1234567845" target="_blank"><i class="fa fa-phone"></i></a>
+                <a class="social-link" href="gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+            </div>
+
+        </div>
+        <div class="hover-button">
+            <div class="hover"><span>Find Me At</span>
+                <a class="social-link" href="https://goo.gl/maps" target="_blank">Address <i class="fa fa-map-marker">
+                    </i></a>
+
+            </div>
+        </div>
+
+        <script src="index.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+</body>
+</html>
