@@ -624,7 +624,7 @@ body {
 }
 
 .bottom-container {
-  background: url("../images/bg.jpg");
+  background: url("bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 5px 0px;
