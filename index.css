@@ -96,7 +96,7 @@ html {
 }
 
 .banner {
-  background: url("../images/bg.jpg") no-repeat;
+  background: url("bg.jpg") no-repeat;
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -182,7 +182,7 @@ html {
 }
 
 section {
-  background: url("../images/bg_candy.jpeg");
+  background: url("bg_candy.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 100px;
@@ -191,7 +191,7 @@ section {
 .banner {
   position: relative;
   height: 100vh;
-  background: url('images/covid.jpg');
+  background: url('covid.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -280,7 +280,7 @@ section {
 }
 
 .section2 {
-  background: url("../images/bg1.jpg");
+  background: url("bg1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 50vh;
